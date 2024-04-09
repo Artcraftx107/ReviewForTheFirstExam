@@ -1,0 +1,16 @@
+You'll define an interface called PaymentProcessor, and then implement this interface in two different classes: CreditCardProcessor and PaypalProcessor.
+
+Interface: PaymentProcessor
+The PaymentProcessor interface will declare a method processPayment(double amount) which, when implemented, processes a payment of the specified amount.
+
+Class 1: CreditCardProcessor
+The CreditCardProcessor class will implement the PaymentProcessor interface and provide an implementation for the processPayment(double amount) method that simulates processing a payment using a credit card.
+
+Class 2: PaypalProcessor
+The PaypalProcessor class will also implement the PaymentProcessor interface. It will provide its own implementation of the processPayment(double amount) method that simulates processing a payment using PayPal.
+
+Your Task
+Define the PaymentProcessor interface.
+Implement the PaymentProcessor interface in the CreditCardProcessor class.
+Implement the PaymentProcessor interface in the PaypalProcessor class.
+In a Main class, create instances of both CreditCardProcessor and PaypalProcessor and use them to process payments.
