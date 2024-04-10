@@ -1,0 +1,22 @@
+This application will support operations such as depositing and withdrawing money from an account. Certain conditions will trigger exceptions, such as withdrawing more money than the account balance or attempting to deposit negative amounts.
+
+Exercise Details
+Create the BankAccount Class: This class will represent a simple bank account with operations for depositing and withdrawing money.
+
+Implement Custom Exceptions: You will create two custom exceptions:
+
+InsufficientFundsException for when a withdrawal attempt exceeds the account balance.
+InvalidDepositException for when a deposit is a negative amount.
+Implement the BankAccount Class: The class should have at least the following:
+
+A field for balance to store the current account balance.
+A method deposit(double amount) that adds the amount to the balance. If the amount is negative, it throws an InvalidDepositException.
+A method withdraw(double amount) that subtracts the amount from the balance. If the amount exceeds the balance, it throws an InsufficientFundsException.
+Testing Your Application: In a Main class, test depositing and withdrawing with normal and boundary conditions to demonstrate that your custom exceptions are thrown appropriately.
+
+Bank Class
+List of BankAccounts: The Bank class will contain a list to store BankAccount instances.
+
+Account Management Operations: It will provide methods to add new accounts, retrieve accounts, and perform operations on all accounts.
+
+Implementing Operations: The operations such as deposit and withdraw can be extended to work with all accounts in the bank.
